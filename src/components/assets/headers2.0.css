@@ -7,10 +7,10 @@
 }
 
 .logooss {
-  max-width: 10%;
+  max-width: 4%;
   position: absolute;
   left: 5%;
-  bottom: 27%;
+  bottom: 15%;
   transition: left 0.3s ease;
 }
 

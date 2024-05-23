@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../assets/cclogo.png';
+import logo from '../assets/logo512.png';
 import notif from '../assets/notif.png';
 import home from '../assets/home.png';
 import './headers2.0.css';

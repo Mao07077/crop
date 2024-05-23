@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Header } from '../assets/header';
 import lnd from '../assets/lnd.png';
 import './Landingpage.css';
 import { Link } from 'react-router-dom';
@@ -99,7 +98,6 @@ useEffect(() => {
   };
   return (
     <div>
-      <Header />
       <div className='content'>
         <Link to="/signup" className="get">
           <button>Get Started</button>

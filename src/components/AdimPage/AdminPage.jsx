@@ -40,6 +40,7 @@ const AdminPage = () => {
     };
   }, [auth.currentUser?.uid]);
 
+
   return (
     <div className='bg'>
       <Header />
