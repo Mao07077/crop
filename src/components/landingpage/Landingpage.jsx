@@ -127,7 +127,7 @@ useEffect(() => {
           <p>Current Temperature: {kelvinToCelsius(currentWeather.main.temp).toFixed(2)}°C</p>
         </div>
       ) : (
-        <p className="error-message">Enter a city to get weather information.</p>
+        <p className="message">Enter a city to get weather information.</p>
       )}
 
       {dailyForecast.length > 0 && (

@@ -1,7 +1,7 @@
 
 .contt {
   display: flex;
-  background-color: rgba(104, 175, 86, 0.90);
+  background-color: #12372A;
   padding: 1%;
   position: relative;
 }
@@ -15,10 +15,12 @@
 }
 
 .notif {
-  max-width: 3%;
+  max-width: 3.5%;
   position: absolute;
-  left: 88%;
+  left: 87%;
   bottom: 18%;
+  resize: both;
+  overflow-y: auto;
 }
 .notification-container{
   width: 30%;
@@ -69,7 +71,7 @@
   top: 100%;
   left: 0;
   height: 532px;
-  background-color: rgba(104, 175, 86, 0.90);
+  background-color: #436850;
   z-index: 1;
 }
 

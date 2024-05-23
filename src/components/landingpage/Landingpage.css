@@ -34,7 +34,7 @@ body {
   top: 50%;
 }
 .logoolog {
-   max-width: 10%;
+   max-width: 6%;
   position: absolute;
   display: block;
   left: 5%;
@@ -67,7 +67,7 @@ input {
   background: #93cc84;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
   left: 10%;
-  top: 100%;
+  top: 90%;
   transform: translate(-50%, -50%);
 }
 
@@ -98,4 +98,11 @@ input {
 
 .daily-forecast-item p {
   margin: 5px 0;
+}
+.message{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #205C47;
+font-size: 12px;
 }
