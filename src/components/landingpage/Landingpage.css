@@ -33,6 +33,14 @@ body {
   left: 78%;
   top: 50%;
 }
+.logoolog {
+   max-width: 10%;
+  position: absolute;
+  display: block;
+  left: 5%;
+  top:5%;
+  align-items: center;
+}
 
 form {
   text-align: center;

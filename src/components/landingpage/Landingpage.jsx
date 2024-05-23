@@ -3,6 +3,7 @@ import lnd from '../assets/lnd.png';
 import './Landingpage.css';
 import { Link } from 'react-router-dom';
 import moment from 'moment';
+import logoolog from '../assets/logo512.png';
 
 const Landingpage = () => {
   const [city, setCity] = useState('');
@@ -99,6 +100,7 @@ useEffect(() => {
   return (
     <div>
       <div className='content'>
+      <img className="logoolog" src={logoolog} alt="logo" />
         <Link to="/signup" className="get">
           <button>Get Started</button>
         </Link>
