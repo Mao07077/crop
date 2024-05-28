@@ -45,6 +45,7 @@
   .FnLs input{
     border-radius: 15px;
     height: 30px;
+    width: 300px;
     font-size: 14px;
 
 
@@ -59,7 +60,7 @@
  .isign input{
   border-radius: 15px;
     height: 30px;
-    width: 500px;
+    width: 300px;
     font-size: 14px;
  }
 

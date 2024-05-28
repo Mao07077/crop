@@ -13,7 +13,7 @@ body {
 }
 .name {
   
-  color: #dff4cb;
+  color: #e0f005;
   position: absolute;
   font-family: PT Sans Caption;
   font-size: 80px;
@@ -36,7 +36,7 @@ body {
 .get button {
   font-family: monospace, sans-serif;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
   cursor: pointer;
   background-color: #046aad79;
@@ -44,8 +44,8 @@ body {
   border: none;
   border-radius: 10px;
   position: absolute;
-  left: 80%;
-  top: 120%;
+  left: 90%;
+  top: 125%;
 }
 .logoolog {
   max-width: 3%;
@@ -64,11 +64,11 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
-  font-family: monospace, sans-serif;
+  font-family: monospace, sans-serif; 
 }
 
 input {
-  width: 10%;
+  width: 15%;
   padding: 8px;
 }
 
@@ -96,7 +96,7 @@ input {
   color: #060705;
   position: absolute;
   font-family: PT Sans Caption;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   margin-top: -70px;
   letter-spacing: 4.16px;
@@ -106,12 +106,14 @@ input {
 .daily-forecast {
   display: flex;
   border-radius: 15px;
-  background: #097fee;
+  background: #d6e1eb;
+  width: 65%;
+  height: 80%;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
-  margin-left: 20%;
+  margin-top: 40px;
+  margin-left: 25%;
 }
 
 .daily-forecast-item {

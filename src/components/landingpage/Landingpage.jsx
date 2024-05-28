@@ -112,7 +112,9 @@ useEffect(() => {
       <form onSubmit={handleSearchSubmit}>
         <label>
           Enter City:
-          <input type="text" value={city} onChange={handleInputChange} />
+          <input type="text" placeholder="Enter a city to get weather information.!"
+          value={city} onChange={handleInputChange} />
+          
         </label>
       </form>
 
@@ -129,7 +131,7 @@ useEffect(() => {
           <p>Current Temperature: {kelvinToCelsius(currentWeather.main.temp).toFixed(2)}°C</p>
         </div>
       ) : (
-        <p className="message">Enter a city to get weather information.</p>
+        <p className="message"></p>
       )}
 
       {dailyForecast.length > 0 && (
