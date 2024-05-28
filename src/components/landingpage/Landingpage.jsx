@@ -111,7 +111,7 @@ useEffect(() => {
 
       <form onSubmit={handleSearchSubmit}>
         <label>
-          Enter City:
+          <b>Enter City:</b>
           <input type="text" placeholder="Enter a city to get weather information.!"
           value={city} onChange={handleInputChange} />
           
