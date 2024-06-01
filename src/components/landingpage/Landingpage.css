@@ -13,7 +13,7 @@ body {
 }
 .name {
   
-  color: #e0f005;
+  color: #eeeee3;
   position: absolute;
   font-family: PT Sans Caption;
   font-size: 80px;
@@ -32,19 +32,24 @@ body {
 .get {
   text-decoration: none;
 }
-
+.get button{
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 3px #1b8d67;
+  
+}
 .get button {
   font-family: monospace, sans-serif;
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 900;
   cursor: pointer;
-  background-color: #046aad79;
-  color: #8bf0c6;
+  background-color: #11522c79;
+  color: #f4f4f4;
   border: none;
   border-radius: 10px;
   position: absolute;
-  left: 90%;
+  left: 50%;
   top: 125%;
 }
 .logoolog {
@@ -63,17 +68,18 @@ form {
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-family: monospace, sans-serif; 
-  font-size: 20px;
+  font-size: 25px;
+  bottom: 50%;
  
 }
 b{
-  width: 15%;
+  width: 30%;
   height: 200px;
   border-radius: 3px;
   background: #93cc84;
-  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.50);
   flex-wrap: wrap;}
 input {
   width: 16%;
