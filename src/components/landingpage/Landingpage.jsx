@@ -106,7 +106,7 @@ useEffect(() => {
         </Link>
         <img className="lnd" src={lnd} alt="Landscape" />
         <div className="name">CropCare<br/>
-        a farmer's flair.</div>
+       </div>
       </div>
 
       <form onSubmit={handleSearchSubmit}>
