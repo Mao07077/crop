@@ -60,6 +60,7 @@ const Login = () => {
       </div>
       <img className="bgg" src={bg} alt="background" />
     </div>
+    
   );
 };
 

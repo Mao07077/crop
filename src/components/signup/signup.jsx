@@ -93,7 +93,7 @@ export const Signup = () => {
         {error && <div className="error-message">{error}</div>}
       </div>
       <img className="logo" src={logo} alt="logo" />
-      <div className="slo">CropCare, <br/> a farmer’s flair.</div>
+      <div className="slo">CropCare </div>
       <img className="bck" src={bbg} alt="background" />
     </div>
   );
