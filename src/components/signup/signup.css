@@ -69,6 +69,9 @@
   color: #000;
   display: flex;
  }
+ .Alaccount a:hover{
+  text-decoration: underline rgb(11, 11, 11);
+}
   .frame {
     width: 550px;
     height: 550px;
@@ -89,15 +92,28 @@
   margin: auto;
 }
 .signn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #cecece;
-  color: #000000;
   border: none;
-  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0b0808;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #fcfcfc;
+}
+
+.submit:hover {
+  background-color: #0fcc3196;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }

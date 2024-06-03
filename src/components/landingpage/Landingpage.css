@@ -17,8 +17,8 @@ body {
   position: absolute;
   font-family: Courier  ;
   font-size: 70px;
-  font-weight: 500;
-  margin-top: -400px;
+  font-weight: 530;
+  margin-top: -430px;
   letter-spacing: 4.16px;
   left: 10%;
   text-align: left;
@@ -52,6 +52,35 @@ body {
   left: 50%;
   top: 125%;
 }
+.get button {
+  border: none;
+ color: #fff;
+ background-image: linear-gradient(30deg, #03601d, #b9f0d247);
+ border-radius: 20px;
+ background-size: 100% auto;
+ font-family: inherit;
+ font-size: 17px;
+ padding: 0.6em 1.5em;
+}
+button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+ }
+ @keyframes pulse512 {
+  0% {
+   box-shadow: 0 0 0 0 #05bada66;
+  }
+ 
+  70% {
+   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+ 
+  100% {
+   box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+ }
 .logoolog {
   max-width: 8%;
   position: absolute;
