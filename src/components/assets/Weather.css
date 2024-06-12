@@ -1,6 +1,6 @@
 .hesoy{
     width: 90%;
-    height:40%;
+    height:50%;
     position: absolute;
     border-radius: 15px;
     background: transparent;
@@ -12,6 +12,10 @@
 .gtt {
     text-align: center;
     margin-top: 20px;
+  }
+  h3{
+    text-align: left;
+    margin-top: -80px;
   }
   
   
@@ -33,7 +37,7 @@
 
     height: 50%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 18%;
 
   }
