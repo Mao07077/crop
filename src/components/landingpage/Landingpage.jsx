@@ -110,13 +110,11 @@ useEffect(() => {
       </div>
 
       <form onSubmit={handleSearchSubmit}>
-        <label>
-          <b>Enter City:</b>
-          <input type="text" placeholder="Enter a city to get weather information.!"
-          value={city} onChange={handleInputChange} />
-          
-        </label>
-      </form>
+      <button type="submit"><b>Enter City</b></button>
+  <input type="text" placeholder="Enter a city to get weather information.!"
+         value={city} onChange={handleInputChange} />
+  
+</form>
 
       {error ? (
         <p className="error-message">{error}</p>
@@ -126,16 +124,16 @@ useEffect(() => {
             {currentWeather.name}, {currentWeather.sys && currentWeather.sys.country}
           </h2>
           <p>
-            Current Weather: {currentWeather.weather && currentWeather.weather[0] && currentWeather.weather[0].description}
+            Todays Weather Forcast: {currentWeather.weather && currentWeather.weather[0] && currentWeather.weather[0].description}
           </p>
-          <p>Current Temperature: {kelvinToCelsius(currentWeather.main.temp).toFixed(2)}°C</p>
+          <p>Todays Temperature: {kelvinToCelsius(currentWeather.main.temp).toFixed(2)}°C</p>
         </div>
       ) : (
         <p className="message"></p>
       )}
 
       {dailyForecast.length > 0 && (
-        <div className='weatherw'>
+        <div className='Daily-Weather'>
           <h3>Daily Forecast</h3>
           <div className='daily-forecast'>
             {renderDailyForecast()}

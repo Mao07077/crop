@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #1edb9c;
 }
 .content {
   position: relative;
@@ -12,17 +13,16 @@ body {
   
 }
 .name {
-  
   color: #eeeee3;
   position: absolute;
-  font-family: Courier  ;
-  font-size: 70px;
-  font-weight: 530;
-  margin-top: -430px;
-  letter-spacing: 4.16px;
+  font-family: Courier;
+  font-size: 3rem; /* changed from 70px to 3rem */
+  font-weight: 550px;
+  margin-top: -53vh; /* changed from -430px to -20vh */
+  letter-spacing: 0.2em; /* changed from 4.16px to 0.2em */
   left: 10%;
   text-align: left;
-  }
+}
 
 .lnd {
   width: 100%;
@@ -64,17 +64,17 @@ body {
 }
 button:hover {
   background-position: right center;
-  background-size: 200% auto;
+  background-size: 300% auto;
   -webkit-animation: pulse 2s infinite;
   animation: pulse512 1.5s infinite;
  }
  @keyframes pulse512 {
   0% {
-   box-shadow: 0 0 0 0 #05bada66;
+   box-shadow: 0 0 0 0 #fefefe;
   }
  
   70% {
-   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+   box-shadow: 0 0 0 20px rgb(218 103 68 / 0%);
   }
  
   100% {
@@ -82,12 +82,16 @@ button:hover {
   }
  }
 .logoolog {
+  width: 8;
+  height: 8;
   max-width: 8%;
+  max-height: 100%;
   position: absolute;
   display: block;
   left: 2%;
   top:10%;
   align-items: center;
+  object-fit: contain;
 }
 
 form {
@@ -102,29 +106,37 @@ label {
   font-size: 25px;
   }
 b{
-  width: 30%;
-  height: 200px;
-  border-radius: 3px;
-  background: #93cc84;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  font-size: 15px;
+  background: #9fe98c;
   box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.50);
   flex-wrap: wrap;}
+
 input {
   width: 16%;
   padding: 10px;
 }
 
 .con1 {
+  margin-top: 150px;
   width: 15%;
-  height: 200px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   position: absolute;
   border-radius: 15px;
-  background: #93cc84;
+  background: #b0f29f;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
   left: 10%;
   top: 78%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+  .con1 {
+    height: calc(50% - 50px) 
+  }
 }
 .con1 h2{
   display: flex;
@@ -134,38 +146,66 @@ input {
   margin-left: 5%;
 }
 .con1 p{
-
+  font-size: 20px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
   margin-left: 3%;
+ 
 }
-.weatherw h3{
+
+.con1 p {
+  font-size: 18px; 
+  margin-bottom: 10px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .con1 {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .con1 {
+    max-width: 300px; 
+  }
+  .con1 p {
+    font-size: 16px; 
+  }
+}
+.Daily-Weather h3 {
+  max-width: 300px; 
+  height: 50px;
+  padding: 2px;
   color: #060705;
   position: absolute;
   font-family: PT Sans Caption;
-  font-size: 35px;
+  font-size: 2vw; /* Adjusts the font size based on 2% of the viewport width */
   font-weight: 700;
-  margin-top: -90px;
-  letter-spacing: 4.16px;
-  left: 1%;
-  text-align: left;
+  margin-top: -50px;
+  letter-spacing: 0.2em; 
+  left: 3%; /* Keeps the text at 3% from the left side of its container */
+  text-align:left; /* Aligns text to the left */
   border-radius: 5px;
   background: #bde4b3;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.50);
 }
+
+  
+
+
 .daily-forecast {
   display: flex;
-  border-radius: 15px;
-  background: #d6e1eb;
-  width: 65%;
-  
-  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 70px;
-  margin-left: 25%;
+  border-radius: 15px;
+  background-color: #83cd98;
+  width: 65%;
+  margin: 70px 25% 0; 
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.50);
 }
 
 .daily-forecast-item {
