@@ -52,8 +52,10 @@ export const Signup = () => {
   };
 
   return (
-    <div className="bb">
+    
+        <div className="bb">
       <div className="frame">
+      <img className="logo" src={logo} alt="logo" />
         <div className="ind">Sign up</div>
         <div className="FnLs">
           <input
@@ -92,9 +94,7 @@ export const Signup = () => {
         </div>
         {error && <div className="error-message">{error}</div>}
       </div>
-      <img className="logo" src={logo} alt="logo" />
-      <div className="slo">CropCare </div>
-      <img className="bck" src={bbg} alt="background" />
+                  <img className="bck" src={bbg} alt="background" />
     </div>
   );
 };
